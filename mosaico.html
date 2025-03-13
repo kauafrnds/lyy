@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mosaico de Fotos</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9e2f7;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #ff6b81;
+        }
+        .mosaico {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            justify-items: center;
+            margin-top: 30px;
+        }
+        .mosaico img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        img {
+            margin-top: 10px;
+            width: 30%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            align-items: center;
+vertical-align: middle;
+        }
+        .button-back {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #ff6b81;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 30px;
+            text-decoration: none;
+        }
+        .button-back:hover {
+            background-color: #ff4c6a;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Agora um pouquinho de nós pra você</h1>
+    <p>(Se vc põe "Não" você ia ficar careca aqui mesmo)</p>
+    
+        <!-- Imagens para o mosaico -->
+        <img src="l2.jpg" alt="Foto 1">
+        <img src="l6.jpg" alt="Foto 2">
+        <img src="l1.jpg" alt="Foto 3">
+        <img src="l9.jpg" alt="Foto 4">
+        <img src="l7.jpg" alt="Foto 5">
+        <img src="l3.jpg" alt="Foto 6">
+        <img src="l5.jpg" alt="Foto 7">
+
+    <br>
+    <img src="l4.jpg" alt="Foto 8">
+    <img src="l8.jpg" alt="Foto 9">
+    <h3>Te amo, amor.</h3>
+    <a href="principal.html">
+        <button class="button-back">Voltar para o Pedido</button>
+    </a>
+
+</body>
+</html>
